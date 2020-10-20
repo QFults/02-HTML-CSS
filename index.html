@@ -5,12 +5,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My First HTML Page</title>
+  <style>
+
+    h1 {
+      color: red;
+      background-color: blue;
+      font-size: 50px;
+      font-weight: 900;
+      border: 5px solid black;
+    }
+
+    .headers {
+      color: green;
+    }
+
+    #heading {
+      color: orange;
+    }
+
+  </style>
 </head>
 
 <body>
 
-  <h1>Hello World!</h1>
-  
+  <h1 id="heading" class="headers">Hello World!</h1>
+
+  <h1 class="headers">Goodbye World!</h1>
+
+  <h1>Something Else</h1>
 </body>
 
 </html>
